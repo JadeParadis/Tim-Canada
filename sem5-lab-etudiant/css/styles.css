@@ -17,7 +17,7 @@ html {
 
 /* ===== Numéro 1 ===== */
 body {
-    font : normal 1.8rem/160% 'PT Sans', sans-serif;
+    font: normal 1.125rem/160% 'PT Sans', sans-serif;
 
 }
 
@@ -119,16 +119,21 @@ header .wrapper {
 /* ===== Numéro 4b ===== */
 .hero .wrapper {
     display: flex;
+    flex-direction: column; 
     min-height: 650px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /* ===== Numéro 4c ===== */
 .hero .contenu {
-
+    max-width: 50%;
+    color: #fff;
 }
 
 /* ===== Numéro 4d ===== */
-/*
+
 .hero h1 {
     font-weight: 100;
     font-size: 100px;
@@ -138,24 +143,23 @@ header .wrapper {
     margin: 0 0 20px 0;
     color: #F2545B;
 }
-*/
+
 
 /* ===== Numéro 5a ===== */
-/*
+
 .athletes h2 {
-    font-family: Nunito, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+    font: bold 3.125rem "Nunito", sans-serif; 
+    letter-spacing: 0.05em;
     margin: 0 0 50px 0;
 }
-*/
+
 
 /* ===== Numéro 5b ===== */
-/*
+
 .athletes p {
-    margin: 0 0 50px 0;
+    margin: 0 0 50px;
 }
-*/
+
 
 /* ===== Numéro 5c ===== */
 /*
